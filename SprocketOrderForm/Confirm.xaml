@@ -1,0 +1,15 @@
+﻿<Window x:Class="SprocketOrderForm.Confirm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SprocketOrderForm"
+        mc:Ignorable="d"
+        Title="Confirm" Height="149.128" Width="223.11">
+    <Grid Margin="0,0,-8,-21">
+        <Label x:Name="lblConfirm" Content="Are you sure?" HorizontalAlignment="Left" Height="45" Margin="10,10,0,0" VerticalAlignment="Top" Width="151"/>
+        <Button x:Name="btnYes" Content="Yes" HorizontalAlignment="Left" Height="35" Margin="10,60,0,0" VerticalAlignment="Top" Width="70" Click="btnYes_Click"/>
+        <Button x:Name="btnNo" Content="No" HorizontalAlignment="Left" Height="35" Margin="117,60,0,0" VerticalAlignment="Top" Width="70" Click="btnNo_Click"/>
+
+    </Grid>
+</Window>

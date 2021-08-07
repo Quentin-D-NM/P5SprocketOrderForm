@@ -1,0 +1,27 @@
+﻿<Window x:Class="SprocketOrderForm.SprocketForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SprocketOrderForm"
+        mc:Ignorable="d"
+        Title="SprocketForm" Height="272.093" Width="361.773">
+    <Grid>
+        <Label x:Name="lblSprocketForm" Content="Sprocket Form" HorizontalAlignment="Left" Height="36" Margin="10,10,0,0" VerticalAlignment="Top" Width="134" FontSize="18"/>
+        <Label x:Name="lblItemID" Content="ItemID" HorizontalAlignment="Left" Height="26" Margin="10,62,0,0" VerticalAlignment="Top" Width="49"/>
+        <Label Content="Item Type" HorizontalAlignment="Left" Height="26" Margin="10,93,0,0" VerticalAlignment="Top" Width="62"/>
+        <Label x:Name="lblNumTeeth" Content="Number of teeth" HorizontalAlignment="Left" Height="26" Margin="10,124,0,0" VerticalAlignment="Top" Width="122"/>
+        <Label x:Name="lblNumItems" Content="Number of items" HorizontalAlignment="Left" Height="26" Margin="10,155,0,0" VerticalAlignment="Top" Width="132"/>
+        <TextBox x:Name="txtItemID" HorizontalAlignment="Left" Height="26" Margin="144,62,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200"/>
+        <TextBox x:Name="txtNumTeeth" HorizontalAlignment="Left" Height="26" Margin="144,124,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200"/>
+        <TextBox x:Name="txtNumItems" HorizontalAlignment="Left" Height="26" Margin="144,155,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200"/>
+        <ComboBox x:Name="cbboxItemType" HorizontalAlignment="Left" Height="26" Margin="144,93,0,0" VerticalAlignment="Top" Width="200">
+            <Button Content="Steel"/>
+            <Button Content="Aluminum"/>
+            <Button Content="Plastic"/>
+        </ComboBox>
+        <Button x:Name="btnSubmit" Content="Submit" HorizontalAlignment="Left" Height="34" Margin="31,197,0,0" VerticalAlignment="Top" Width="110" Click="btnSubmit_Click"/>
+        <Button x:Name="btnCancel" Content="Cancel" HorizontalAlignment="Left" Height="34" Margin="210,197,0,0" VerticalAlignment="Top" Width="110" Click="btnCancel_Click"/>
+
+    </Grid>
+</Window>
